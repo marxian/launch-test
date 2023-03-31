@@ -4,6 +4,7 @@
     <script>
       function track() {
         window.appEventData = window.appEventData || [];
+        console.log('Sending event to EDDL');
         appEventData.push({
           "event": "Onsite Search Performed"
         });
