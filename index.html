@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="https://assets.adobedtm.com/4faed591d364/f8c09405f6a2/launch-80d391ba43f7-development.min.js" async></script>
+    <script>
+      function track() {
+        window.appEventData = window.appEventData || [];
+        appEventData.push({
+          "event": "Onsite Search Performed"
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <button onClick="track">Track</button>
+  </body>
+</html>
